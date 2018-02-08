@@ -1,0 +1,28 @@
+{
+    "name": "dinnad/modules",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inna Danylevska",
+            "email": "innassik@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "version": "1.0.0",
+    "autoload": {
+    "psr-4": {
+        "Dinnad\\Modules\\": ""
+        }
+    },
+       "extra": {
+"laravel": {
+"providers": [
+"Dinnad\\Modules\\ServiceProvider"
+],
+"aliases": {
+"Dinnad": "Dinnad\\Modules\\Facade"
+            }
+        }
+    }
+}
